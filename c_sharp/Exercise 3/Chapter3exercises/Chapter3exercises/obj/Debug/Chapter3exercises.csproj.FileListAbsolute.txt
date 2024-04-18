@@ -1,0 +1,6 @@
+/Users/ryanasnell/School/C Sharp/Exercises/Exercise 3/Chapter3exercises/Chapter3exercises/obj/Debug/Chapter3exercises.csproj.AssemblyReference.cache
+/Users/ryanasnell/School/C Sharp/Exercises/Exercise 3/Chapter3exercises/Chapter3exercises/obj/Debug/Chapter3exercises.csproj.CoreCompileInputs.cache
+/Users/ryanasnell/School/C Sharp/Exercises/Exercise 3/Chapter3exercises/Chapter3exercises/bin/Debug/Chapter3exercises.exe
+/Users/ryanasnell/School/C Sharp/Exercises/Exercise 3/Chapter3exercises/Chapter3exercises/bin/Debug/Chapter3exercises.pdb
+/Users/ryanasnell/School/C Sharp/Exercises/Exercise 3/Chapter3exercises/Chapter3exercises/obj/Debug/Chapter3exercises.exe
+/Users/ryanasnell/School/C Sharp/Exercises/Exercise 3/Chapter3exercises/Chapter3exercises/obj/Debug/Chapter3exercises.pdb

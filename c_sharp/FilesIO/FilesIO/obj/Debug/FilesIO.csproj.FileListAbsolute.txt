@@ -1,0 +1,6 @@
+/Users/ryanasnell/School/C Sharp/Class/FilesIO/FilesIO/bin/Debug/FilesIO.exe
+/Users/ryanasnell/School/C Sharp/Class/FilesIO/FilesIO/bin/Debug/FilesIO.pdb
+/Users/ryanasnell/School/C Sharp/Class/FilesIO/FilesIO/obj/Debug/FilesIO.csproj.AssemblyReference.cache
+/Users/ryanasnell/School/C Sharp/Class/FilesIO/FilesIO/obj/Debug/FilesIO.csproj.CoreCompileInputs.cache
+/Users/ryanasnell/School/C Sharp/Class/FilesIO/FilesIO/obj/Debug/FilesIO.exe
+/Users/ryanasnell/School/C Sharp/Class/FilesIO/FilesIO/obj/Debug/FilesIO.pdb

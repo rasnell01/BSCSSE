@@ -1,0 +1,6 @@
+/Users/ryanasnell/School/C Sharp/Class/Employee/Employee/bin/Debug/Employee.exe
+/Users/ryanasnell/School/C Sharp/Class/Employee/Employee/bin/Debug/Employee.pdb
+/Users/ryanasnell/School/C Sharp/Class/Employee/Employee/obj/Debug/Employee.csproj.AssemblyReference.cache
+/Users/ryanasnell/School/C Sharp/Class/Employee/Employee/obj/Debug/Employee.csproj.CoreCompileInputs.cache
+/Users/ryanasnell/School/C Sharp/Class/Employee/Employee/obj/Debug/Employee.exe
+/Users/ryanasnell/School/C Sharp/Class/Employee/Employee/obj/Debug/Employee.pdb

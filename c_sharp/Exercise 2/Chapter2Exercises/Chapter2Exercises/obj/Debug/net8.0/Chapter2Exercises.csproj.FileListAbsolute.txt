@@ -1,0 +1,15 @@
+/Users/ryanasnell/School/C Sharp/Exercises/Exercise 2/Chapter2Exercises/Chapter2Exercises/bin/Debug/net8.0/Chapter2Exercises
+/Users/ryanasnell/School/C Sharp/Exercises/Exercise 2/Chapter2Exercises/Chapter2Exercises/bin/Debug/net8.0/Chapter2Exercises.deps.json
+/Users/ryanasnell/School/C Sharp/Exercises/Exercise 2/Chapter2Exercises/Chapter2Exercises/bin/Debug/net8.0/Chapter2Exercises.runtimeconfig.json
+/Users/ryanasnell/School/C Sharp/Exercises/Exercise 2/Chapter2Exercises/Chapter2Exercises/bin/Debug/net8.0/Chapter2Exercises.dll
+/Users/ryanasnell/School/C Sharp/Exercises/Exercise 2/Chapter2Exercises/Chapter2Exercises/bin/Debug/net8.0/Chapter2Exercises.pdb
+/Users/ryanasnell/School/C Sharp/Exercises/Exercise 2/Chapter2Exercises/Chapter2Exercises/obj/Debug/net8.0/Chapter2Exercises.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ryanasnell/School/C Sharp/Exercises/Exercise 2/Chapter2Exercises/Chapter2Exercises/obj/Debug/net8.0/Chapter2Exercises.AssemblyInfoInputs.cache
+/Users/ryanasnell/School/C Sharp/Exercises/Exercise 2/Chapter2Exercises/Chapter2Exercises/obj/Debug/net8.0/Chapter2Exercises.AssemblyInfo.cs
+/Users/ryanasnell/School/C Sharp/Exercises/Exercise 2/Chapter2Exercises/Chapter2Exercises/obj/Debug/net8.0/Chapter2Exercises.csproj.CoreCompileInputs.cache
+/Users/ryanasnell/School/C Sharp/Exercises/Exercise 2/Chapter2Exercises/Chapter2Exercises/obj/Debug/net8.0/Chapter2Exercises.sourcelink.json
+/Users/ryanasnell/School/C Sharp/Exercises/Exercise 2/Chapter2Exercises/Chapter2Exercises/obj/Debug/net8.0/Chapter2Exercises.dll
+/Users/ryanasnell/School/C Sharp/Exercises/Exercise 2/Chapter2Exercises/Chapter2Exercises/obj/Debug/net8.0/refint/Chapter2Exercises.dll
+/Users/ryanasnell/School/C Sharp/Exercises/Exercise 2/Chapter2Exercises/Chapter2Exercises/obj/Debug/net8.0/Chapter2Exercises.pdb
+/Users/ryanasnell/School/C Sharp/Exercises/Exercise 2/Chapter2Exercises/Chapter2Exercises/obj/Debug/net8.0/Chapter2Exercises.genruntimeconfig.cache
+/Users/ryanasnell/School/C Sharp/Exercises/Exercise 2/Chapter2Exercises/Chapter2Exercises/obj/Debug/net8.0/ref/Chapter2Exercises.dll
