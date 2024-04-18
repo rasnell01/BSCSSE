@@ -1,0 +1,21 @@
+method declarations:
+	return type and parentheses are required.
+	
+classDefinedIn.method();
+
+new is only used to define an initinalization.
+
+Sequential
+	assignment
+	funtion calls
+	create objects
+
+decision
+	if
+	if else
+	switch
+
+loops
+	while
+	for
+	do while

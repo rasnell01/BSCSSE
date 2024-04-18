@@ -1,0 +1,93 @@
+!!! No main !!!
+class name
+attributes
+	private never public
+operations
+	constructors()
+		initialize the atributes
+	getters
+	setters
+***test main***
+
+high cohesion and low coupling
+	
+functional
+	make appt
+	drive car
+	drop off car
+	talk to service rep
+	wait around
+	tget call from tech rep
+	hear story of results
+	pay money
+	get car
+	drive home
+	cry for a week
+	
+object
+	owner
+	car dealership
+	service center
+	tech rep
+	waiting rooom
+	snack bar
+	restroom
+	cashier
+	drop off person (vallet)
+	
+	
+LOCGIC 
+	try to make it as thurough as possible.
+	
+for testing do it for all possible paths: the number of decisions + 1.
+
+Why should you choose a for loop? 
+	when you know exactly how many time you are going to go through.
+	
+while and if:
+	while runs until it's terminated. 
+	if runs once. 
+	if else make sure it's necisarry 
+
+	
+	if ( conditional expression that evaluates to true or false ) 
+		statement;
+	while ( conditional expression that evaluates to true or false)
+		statement;
+		
+	curley braces for multiple statement if/while loops.
+	
+	for (w = 1; w <= 8; w++)
+		print "A";
+		print "B";
+	print "C";
+		*A 8 times, B once, C once.
+		
+Declarations 
+	x = x +1; sequential circuits.
+	
+Assignment
+	stores information.
+Print
+Math : int / and %.
+Method Definition
+Method Call
+Class: at its lowest level is a record. tuple (x,y) <- an ordered pair.
+
+class orderedPair{
+int x;
+int y;
+}
+
+class CubeTupple{
+int x;
+int y;
+int z;
+}
+
+class Item{
+int size;
+}
+Item myItem = new Item(); <-an object 
+
+A program consists of Data + Algorithms!

@@ -1,0 +1,60 @@
+//Constants
+ Final 
+ 
+//variable
+ int value;
+ double number;
+ char letter;
+ String sentence;
+ bool;
+ 
+//classes
+ only one gets a main 
+ 
+Class.object.instanceMethod
+ System.out.println();
+ 
+ Scanner - contains methods that break input into units called tokens.
+ A token is a set of characters that is separated from the next set by whitespace.
+ 
+ 
+ System.out.prinln("This is" + " a test" + 38*4+3-52); is one parameter being passed. Commas 
+ seperate the parameters that are being passed. 
+ 
+ optional access specifiers: public or private (protected) package(default)
+ optional static modifier
+ Praenthesis are required for a method.
+ 	ie: System.out.println();
+		stuff = numberPhrase.first();
+		stuff = numberPhrase.nextln();
+
+Implementation hiding
+encapsulation of method details within a class.
+
+interface
+the only part of a method that the client sees or with which interacts.
+
+Dead code: will never reach due to sequental nature.
+
+
+overloading methods: 
+
+
+runtime of process!!!
+
+fundementals are the key.
+
+"Technical specialists, its your responsibilty when you're in the room to state what's right and wrong. Then it's done."
+
+
+//****************************************************//
+Initalize the data type! answer = 0; is wrong!
+					 int answer = 0; is correct!
+					 
+					 arguments are passed in paraenthesis!
+
+					 
+The things that apply to functions:
+	1. cohesion -> top metric -> Does one thing and one thing only! -> High
+	2. coupling -> top metric -> How connected they are! -> low
+	3. referential transparency -> 
