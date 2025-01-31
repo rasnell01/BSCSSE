@@ -1,0 +1,12 @@
+{
+  "routes": [
+    {
+      "route": "/login",
+      "redirect": "/.auth/login/github"
+    },
+    {
+      "route": "/",
+      "rewrite": "/.auth/login/github?post_login_redirect_uri=/"
+    }
+  ]
+}
