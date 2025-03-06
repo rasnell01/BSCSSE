@@ -1,0 +1,25 @@
+C:\Temp>a.exe
+Usage: a.exe <number of integers in the range of 2..10>
+Message: Incorrect numbers of entries on the command line...
+         using 10 as the number of integers
+(PID: 600) Forward:   47  57  28  87  84  72  26  19  26   0
+(PID: 601) Reverse:    0  26  19  26  72  84  87  28  57  47
+
+C:\Temp>a.exe 5
+(PID: 851) Forward:   36  45  56  57  14
+(PID: 852) Reverse:   14  57  56  45  36
+
+C:\Temp>a.exe -3
+Message: Entry for number of integers is out of range (2 .. 10),
+         using 10 instead
+(PID: 1066) Forward:   26  33  32  27  95  84  31   0  27   8
+(PID: 1067) Reverse:    8  27   0  31  84  95  27  32  33  26
+
+C:\Temp>a.exe 34 89
+Usage: a.exe <number of integers in the range of 2..10>
+Message: Incorrect numbers of entries on the command line...
+         using 10 as the number of integers
+(PID: 1154) Forward:   45  27  68  89  94  53  48  61  76  63
+(PID: 1155) Reverse:   63  76  61  48  53  94  89  68  27  45
+
+C:\Temp>
