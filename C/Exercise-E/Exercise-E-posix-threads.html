@@ -1,0 +1,158 @@
+<html>
+<head>
+<title>Operating Systems</title>
+</head>
+<body bgcolor="#ffffff" text="#000000" link="#000080" vlink="#8080ff" alink="red">
+<center><h2>Programming Exercise E - Parallel Search using Threads</h2></center>
+<br>
+
+
+<h3>Assignment Objectives</h3>
+   <UL>
+   <LI>Practice implementing source code that is part of a larger software 
+       development involving multiple source code files
+   <LI>Practice using POSIX threads as a solution for solving a parallel searching problem
+   </UL>
+
+
+<h3>Assignment Summary</h3>
+   <UL>   
+   In this assignment, you will complete the implementation of a partially-written
+   program.  Given a word search puzzle and a list of words, the program will search through
+   the puzzle and print out the list of words and their locations in the puzzle. The program will
+   be able to perform both a sequential search and a parallel search of the puzzle.  The parallel
+   search will be performed using POSIX threads.
+   <P>  
+   Your finished source code, when combined with the provided source code, should compile, link and run
+   in a POSIX standard environment with no error messages.  It should also run correctly when given expected input.
+   </UL>
+
+<h3>Program Summary</h3>
+   <UL>
+   The program looks for four entries on the command line: the program name, the search type
+   (-s for sequential or -p for parallel), a word puzzle file name, and a word list file name.
+   This is illustrated in the following usage message:
+   <P>
+   <UL><tt>
+   Usage: a.exe search_type puzzle_file_name word_list_file_name <br>
+   <P>
+   search_type : -s for sequential search,  -p for parallel search <br>
+   <P>
+   Minimum puzzle size: 4 rows and 4 columns <br>
+   Maximum puzzle size: 100 rows and 100 columns <br>
+   Maximum number of words: 100 <br>
+   Maximum word size: 40 <br>
+   </UL></tt>
+   <P>
+
+   The format of the word puzzle file consists of two integers on the first line representing
+   the number of rows and columns.  This line is followed by rows of upper-case characters
+   representing the word puzzle.  The characters start at the beginning of the line and are
+   separated from each other by one blank space.  For examples of this format, refer to the
+   <b>furniture-puzzle.txt</b> and <b>state-names-puzzle.txt</b> files.
+   <P>
+
+   The format of the word list file consists of one integer on the first line representing the
+   number of words in the file, followed by one word per line.  The words contain all upper-case
+   letters and contain no blank spaces. For example, "Hall stand" appears as "HALLSTAND".
+   For examples of this format, refer to the
+   <b>furniture-list.txt</b> and <b>state-names-list.txt</b> files.
+   <P>
+
+   The program searches the puzzle for each of the words in the list.  <b>Four</b> different 
+   kinds of searches occur: horizontally to the right, horizontally to the left, vertically down,
+   and vertically up.  These searches are performed either
+   sequentially or in parallel depending on the command line option.
+   <P>
+
+   After completing the search, the program prints the list of words.  It follows each word
+   with its row and column starting position and its direction in which the word extends in the puzzle.  In the
+   program output, the first row or column is referred to as row 1 or column 1.  
+   For examples of this format, refer to the
+   <b>furniture-locations.txt</b> and <b>state-names-locations.txt</b> files.
+   </UL> 
+
+<h3>Assignment Directions</h3>
+
+<OL>
+<LI>As stated earlier, the program is only partially completed.  It consists of three files described below.  Download each of these files from the assignment page on Blackboard:
+   <UL>
+   <LI><b><tt>program-driver.c</tt></b> - This source code file contains the code that starts the program, parses the command line, opens the two files, reads the puzzle file, reads the word list file, and displays the search results. In addition, it contains the code that calls the functions to perform a sequential search or a parallel search of the puzzle. Make no changes in this file.
+   <LI><b><tt>puzzleSearcher.h</tt></b> - This source code header file contains #define constants, a type definition, and function prototypes. Make no changes to this file.
+   <LI><b><tt>puzzleSearcher-module-student.c</tt></b> - This source code file contains #define
+       constants, static global variables, static function prototypes,
+       and global and static function definitions.  The <b>searchHorizontallyRight()</b> function contains the complete algorithm to search for words that run from left to right in the puzzle. You may copy and modify this algorithm as needed to do other kinds of searches in the other functions.  As an alternative, you may design and implement your own search algorithm as long as the function prototypes and the reading from and assignment to the global data strutures remain the same.  Also, no other data structures should be created.
+   </UL>
+
+<LI>Change the name of the <tt>search-module-student.c</tt> file to <tt>search-module.c</TT> 
+
+<LI>Study the source code in each of the three files to get an understanding of how the program
+    works.  Especially notice the source code for the following functions:
+       <P>
+       <UL><B>
+       <LI>void performSequentialSearch(void)
+       <LI>static void *searchHorizontallyRight(void *parameter) 
+       </UL></B>
+       <P>
+    These functions contain the source code to perform a sequential search horizontally to the right; consequently, 
+    the program in its current condition performs only a single kind of sequential search.
+    These two functions serve as a guide for you in coding the remaining functions needed in the file.
+
+<LI>Complete the definition of the <b><tt>performSequentialSearch()</tt></b> function so that 
+    it contains function calls to search three other directions: horizontally to the left, 
+    vertically down, and vertically up.  You may want to do this by creating a copy of the 
+    <tt>searchHorizontallyRight()</tt> function call and making the necessary name changes
+    to adapt to the other three kinds of search. Below are names and prototypes for you to use
+     for the other three functions.  (Note: Although these function prototypes appear to look like
+    threads, this is only for convenience so that they can be used that way later.  Do not create any threads
+    at all when performing the sequential search.) :
+       <P>
+       <UL><B>
+       <LI>static void *searchHorizontallyLeft(void *parameter) 
+       <LI>static void *searchVerticallyDown(void *parameter) 
+       <LI>static void *searchVerticallyUp(void *parameter) 
+       </UL></B>
+       <P> 
+<LI>Complete the definition of the <b><tt>performParallelSearch()</tt></b> function. 
+       This function shall perform a parallel search of the puzzle by assigning each of the 
+       four search functions (i.e., directions) to a separate POSIX thread.  (When creating each thread, 
+       use NULL as the value passed for the thread argument.)  The <tt>performParallelSearch</tt> function
+       shall then join each thread 
+       (i.e., wait for each thread to end) after all threads have been started.
+
+<LI>If you haven't done so already, complete the definitions of each of the <b>three</b> other search functions
+    listed above in Step #4 (i.e., horizontally to the left, vertically down, and vertically up)   
+    The code in these search functions should not contain any output statements (e.g, no printf(), etc.)   
+
+<LI>When compiling and linking the files, you may need to designate the pthread library on the command
+    line depending on the default libraries that your development environment uses.  This is shown below:
+    <P> 
+    <tt>gcc program-driver.c searcher-module.c </tt>
+    <P>
+<LI>Perform tests on the program using the data in the two sample puzzle files  
+
+<LI>Only submit your <tt>search-module.c</tt> file to Blackboard  
+
+</OL>
+
+<h3>Optional Additions to the Program </h3>
+   <UL>
+   In addition to the four horizontal and vertical search functions listed above, complete the definitions of the <b>four</b> diagonal search functions listed below. These functions shall also be called by the <tt>performSequentialSearch()</tt> and <tt>performParallelSearch()</tt> functions. 
+   <P>
+   <UL>
+   <LI><b><tt>static void *searchDiagonallyDownRight(void *parameter)</tt></b>   <br>
+   <LI><b><tt>static void *searchDiagonallyUpLeft(void *parameter)</tt></b><br>
+   <LI><b><tt>static void *searchDiagonallyUpRight(void *parameter)</tt></b><br>
+   <LI><b><tt>static void *searchDiagonallyDownLeft(void *parameter)</tt></b><br>
+   </UL>
+
+   </UL>
+
+<h3>Design and Implementation Constraints</h3>
+   <UL>
+   <LI>Follow the same coding standards given in the previous assignments.
+   </UL>
+
+</body>
+</html>
+

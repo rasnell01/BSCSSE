@@ -1,0 +1,3 @@
+/Users/ryanasnell/School/Operating Systems/Exercises/Exercise-F/cmake-build-debug/CMakeFiles/Exercise_F.dir
+/Users/ryanasnell/School/Operating Systems/Exercises/Exercise-F/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/ryanasnell/School/Operating Systems/Exercises/Exercise-F/cmake-build-debug/CMakeFiles/rebuild_cache.dir
