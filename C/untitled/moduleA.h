@@ -1,0 +1,2 @@
+int doThis(int value);
+
