@@ -1,0 +1,116 @@
+/* general styles */
+html {
+    background-color: black;
+}
+body {
+    background-color: navy;
+    box-shadow: 10px 10px lightblue;
+    margin: 2em;
+    border: 1em;
+}
+header {
+    margin: 6px;
+    padding: 4px;
+    background-color: black;
+    color: cadetblue;
+}
+h1 {
+    padding-left: 20px;
+}
+main{
+    margin: 6px;
+    padding: 4px;
+}
+footer {
+    margin: 6px;
+    padding: 4px;
+}
+div{
+    margin: 6px;
+    padding: 4px;
+}
+ul {
+    margin: 6px;
+    padding: 4px;
+}
+
+
+/* finalProject.php styles */
+.footerMenu {
+    color: rebeccapurple;
+    background-color: black;
+    display: inline;
+    padding: 4px;
+    font-size: 16px;
+    font-family: serif;
+    border-left: 1px solid rebeccapurple;
+    border-right: 1px solid rebeccapurple;
+}
+.footerMenu:active {
+    color: red;
+}
+.footerMenu:visited; {
+    color: aqua;   
+}
+.footerMenu:link {
+    color: rebeccapurple;
+}
+.subscribe {
+    color: white;
+    background-color: black;
+    display: inline;
+    padding: 5px 10px;
+    border-radius: 50%;
+}
+.copyright {
+    color: chartreuse;
+    font-family: fantasy;
+}
+.headerMenu {
+    color: chartreuse;
+    background-color: black;
+    display: inline;
+    padding: 0px 10px 0px 10px;
+    border-left: 3px solid darkred;
+    border-right: 3px solid darkred;
+}
+a:hover {
+    color: red;
+}
+a:visited {
+    color: hotpink;
+}
+a:link {
+    color: chartreuse;
+}
+.mainDiv {
+    background-color: darkred;
+    margin: 2em;
+    padding: 2em;
+    border-radius: 0 25px 25px 25px;
+}
+.mainDivH3 {
+    color: cadetblue;
+    background-color: black;
+    padding: 4px;
+}
+.mainDivP {
+    color:antiquewhite;
+    background-color: darkblue;
+}
+
+/* ryan.php styles */
+#mainRyan {
+    background-color: darkred;
+    color: goldenrod;
+    box-shadow: 20px 20px goldenrod;
+    margin: 2em;
+    padding: 1em;
+    font-family: cursive;
+}
+#h1Ryan {
+    font-size: 72px;
+}
+#mainPRyan {
+    font-size: 18px;
+}

@@ -1,0 +1,96 @@
+/*
+
+*/
+
+body {
+    background-image: url(images/art-background4.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: auto;
+    width: auto;
+}
+
+header {
+    color: aliceblue;
+    background-color: rgba(33,33,33,0.8);
+    margin: 10px;
+    width: 700px;
+    border-radius: 4px;
+    box-shadow: 8px 10px rgba(33,33,33,0.5);
+}
+
+main {
+    margin: 40px;
+    background-color: rgba(162, 164, 164, 0.5);
+    width: 650px;
+    border-radius: 4px;
+    box-shadow: 8px 10px rgba(33,33,33,0.5);
+}
+
+h1 {
+    font-family: fantasy;
+    font-size: 750%;
+    padding-left: 60px;
+    text-shadow: 2px 4px rgba(244, 244, 244, 0.5);
+}
+
+#tagline {
+    font-family: Georgia, serif;
+    font-size: 160%;
+    margin-top: -30px;
+    padding-left: 60px;
+}
+
+#mainH2{
+    color: #141a19;
+    background-color: rgba(244, 244, 244, 0.5);
+    font-size: 200%;
+    padding: 16px;
+    font-family: 'Inknut Antiqua', serif; 
+    border-radius: 4px;
+}
+
+#announcement {
+    padding: 20px;
+    color: #141a19;
+    font-weight: bold;
+}
+
+#timeline {
+    color: aliceblue;
+    background-color: rgba(66,66,66,0.5);
+    margin-left: 20px;
+    margin-right: 350px;
+    padding: 12px;
+    font-family: 'Laila', serif;
+    border-radius: 4px;
+    box-shadow: 2px 4px rgba(33,33,33,0.5);
+}
+
+#footnote {
+    font-family: 'Charm', cursive;
+    margin-left: 20px;
+    padding: 15px 0 10px 0;
+    color: darkred;
+}
+
+footer {
+    background-color: rgba(33,33,33,0.8);
+    margin: 40px;
+    width: 650px;
+    box-shadow: 8px 10px rgba(33,33,33,0.5);
+    border-radius: 4px;
+}
+#footerH2 {
+    color: aliceblue;
+    font-family: 'Inknut Antiqua', serif;
+    padding: 1em;
+    font-size: 120%;
+}
+
+.footerIMG {
+    object-position: center;
+    padding: 1em 2em;
+}
